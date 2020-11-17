@@ -1,0 +1,25 @@
+.app-wrapper {
+  width  : 1000px;
+  height: auto;
+  margin : 0 auto;
+  display: grid;
+  grid-template-areas:
+    "h h"
+    "n c";
+  grid-template-rows: 100 px 1 fr;
+  grid-template-columns: 4fr 12fr;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color:#ffffffcc;
+  display: flex;
+  justify-content: center;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

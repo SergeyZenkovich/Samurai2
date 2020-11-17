@@ -1,0 +1,149 @@
+  .avatar{
+    width: 150px;
+    height: 150px;
+  }
+  .userMainData{
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  .description{
+    width: 45%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  .userName{
+    color: #4c4c4c;
+    font-size: 1.5rem;
+  }
+  .userPlace p, .userJob p{
+    margin: 10px 0 0 0;
+  }
+  .userInfo{
+    width: 20%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    background-color: #ffffff;
+    
+  } 
+  .socials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .contactBlock{
+    display: flex;
+    flex-direction: column;
+    width: 26px;
+    
+    margin:0px 15px;
+    font-size: 9px;
+  }
+  .contactBlock a {
+    width: 26px;
+    height: 26px;
+  }
+  .contactBlock div{
+    width: 22px;
+    height: 26px;
+  }
+  .socials div:hover{
+    cursor: pointer;
+  }
+  .facebook{
+    background-image: url('../../../assets/images/fb.svg');
+  }
+  .facebook:hover{
+    filter: invert(19%) sepia(82%) saturate(531%) hue-rotate(184deg) brightness(98%) contrast(87%);
+  }
+  .github{
+    background-image: url('../../../assets/images/git.svg');
+  }
+  .github:hover{
+    filter: invert(11%) sepia(12%) saturate(861%) hue-rotate(169deg) brightness(97%) contrast(87%);
+  }
+  .instagram{
+    background-image: url('../../../assets/images/inst.svg');
+  }
+  .instagram:hover{
+    filter: invert(35%) sepia(37%) saturate(6467%) hue-rotate(324deg) brightness(92%) contrast(95%);
+  }
+  .twitter{
+    background-image: url('../../../assets/images/tw.svg');
+  }
+  .twitter:hover{
+    filter: invert(62%) sepia(97%) saturate(2047%) hue-rotate(177deg) brightness(102%) contrast(98%);
+  }
+  .youtube{
+    background-image: url('../../../assets/images/yt.svg');
+  }
+  .youtube:hover{
+    filter: invert(9%) sepia(100%) saturate(6532%) hue-rotate(1deg) brightness(104%) contrast(115%);
+  }
+  .socials .vk{
+    background-image: url('../../../assets/images/vk.svg');
+    width: 26px;
+    height: 26px;
+  }
+  .socials .vk:hover{
+    filter: invert(45%) sepia(58%) saturate(407%) hue-rotate(171deg) brightness(91%) contrast(94%);
+  }
+  .socials .website{
+    background-image: url('../../../assets/images/site.svg');
+    width: 26px;
+    height: 26px;
+  }
+  .socials .website:hover{
+    filter: invert(61%) sepia(3%) saturate(19%) hue-rotate(334deg) brightness(92%) contrast(95%);
+  }
+  .socials .mainLink{
+    background-image: url('../../../assets/images/mainLink.svg');
+  }
+  .socials .mainLink:hover{
+    filter: invert(61%) sepia(3%) saturate(19%) hue-rotate(334deg) brightness(92%) contrast(95%);
+  }
+
+  .socials img{
+    width: 30px;
+  }
+  .contentDescription{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .descriptionBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .loadButton{
+    display: none;
+  }
+  .loadLabel{
+    padding: 2px;
+    border: 1px solid #0075c8;
+    border-radius: 2px;
+  }
+  .editStartButton{
+    width: 50px;
+    height: 30px;
+    background-color: royalblue;
+  }
+  .editEndButton{
+    width: 50px;
+    height: 30px;
+    background-color:forestgreen;
+  }
+  .socialsEdit{
+    display: flex;
+    flex-direction: column;
+  }

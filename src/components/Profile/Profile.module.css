@@ -1,0 +1,7 @@
+.Profile{
+    width: 75%;
+    background-color: #ffffffcc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

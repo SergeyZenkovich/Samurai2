@@ -1,0 +1,33 @@
+.userBlock{
+    width: 400px;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.userInfoBlock{
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.userBlock img {
+    width: 100px;
+}
+.userName{
+    font-size: 16px;
+    font-weight:700;
+}
+.userBlock button{
+    border: 0.5px solid #aaaaaa;
+    border-radius: 3px;
+    padding: 2px 5px;
+}
+.followed{
+    background-color: azure;
+}
+.unfollowed{
+    background-color: burlywood;
+}

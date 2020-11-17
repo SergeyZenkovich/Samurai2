@@ -1,0 +1,55 @@
+.usersBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pagBlock{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 25px;
+    padding: 0;
+    background-color: #ffffff;
+    border: 1.5px solid #1155ff ;
+    border-radius: 2px;
+    color: #1155ff;
+    font-weight: 900;
+    
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #dddddd;
+}
+.pagSelected{
+    background-color: #1155ff;
+    border: 1.5px solid black;
+    color: #ffffff;
+}
+.prev, .next{
+    width: 35px;
+    height: 22px;
+    padding: 0;
+    border: 1.5px solid #000000 ;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(23%) sepia(70%) saturate(3972%) hue-rotate(223deg) brightness(99%) contrast(107%);
+}
+.prev:hover, .next:hover{
+    filter: invert(47%) sepia(94%) saturate(2535%) hue-rotate(184deg) brightness(100%) contrast(102%);
+    cursor: pointer;
+}
+.prev{
+    background-image: url('../../assets/images/prev.svg');
+}
+.next{
+    background-image: url('../../assets/images/next.svg');
+}

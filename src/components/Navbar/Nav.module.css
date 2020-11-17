@@ -1,0 +1,28 @@
+.nav {
+    grid-area: n;
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    height: 70vh;
+  }
+  .item a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.5rem;
+  }
+  .item a.active{
+    color: gold ;
+  }
+  .friends{
+    margin: 10px;
+    font-size: 1.75rem;
+    color: aliceblue;
+  }
+  .friendsInner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }

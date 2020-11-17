@@ -1,0 +1,12 @@
+.item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+img{
+  width: 40px
+}
+.options{
+  display: flex;
+  justify-content: flex-end;
+}
